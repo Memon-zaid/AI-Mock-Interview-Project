@@ -35,8 +35,8 @@ const AuthHandler = () => {
           }
         } catch (error) {
           console.log("Error while storing thr User data :", error);
-        }finally{
-            setLoading(false);
+        } finally {
+          setLoading(false);
         }
       }
     };
